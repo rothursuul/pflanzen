@@ -4,7 +4,7 @@
         include 'header.php';
 	include 'navigation.php';
 ?>
-	<main>
+	<main class="penis">
 		<div class="row">
 			<div class="col-2 col-m-2">
 				<div id="licence" class="content">
