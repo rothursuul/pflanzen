@@ -1,0 +1,93 @@
+.small_header{
+	margin-bottom: 10px;
+	}
+
+#licence{
+}
+
+#sub_navigation{
+	display: block;
+	}
+#sub_navigation ul{
+	display: flex;
+	display: -webkit-flex;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	font-size: 1.3rem;
+	background-color: rgb(0, 204, 0);
+
+}
+
+#sub_navigation li{
+	display: block;
+	padding: 10px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+#sub_navigation li:hover{
+	background-color: grey;
+}
+
+.frame_acker{
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: column;
+	width: 500px;
+	height: 500px;
+	border: 1px solid green;
+	background-image: url("http://www.per.net10.de/images/rasen_web.jpg");
+	background-size: cover;
+}
+
+.frame_row{
+	display: flex;
+	display: -webkit-flex;
+	border: 1px solid black;
+	order: 1;
+	flex-grow: 1;
+}
+	
+.frame_element{
+	border: 1px solid black;
+	order: 1;
+	flex-grow: 1;
+}
+@media only screen and (min-width: 600px){
+	#sub_navigation{
+		height: 600px;
+	}
+	#sub_navigation ul{
+		height: 100%;
+	}
+}
+@media only screen and (min-width: 768px){
+
+	#licence{
+		height: 650px;
+		padding: 30px 15px 15px 15px;
+	}
+	#sub_navigation{
+		height: 600px;
+	}
+	#sub_navigation ul{
+		height: auto;
+	}
+
+	#sub_navigation a{
+		padding: 25px;
+	}
+
+	#business{
+		height: 650px;
+		padding: 30px 15px 15px 15px;
+	}
+	#inventory{
+		height: 650px;
+		padding: 30px 15px 15px 15px;
+	}
+}
